@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Focus Trader — Privacy Policy</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Nunito',-apple-system,system-ui,sans-serif;background:
+  radial-gradient(ellipse 60% 50% at 75% 0%,rgba(80,200,210,.10) 0%,transparent 55%),
+  radial-gradient(ellipse 50% 50% at 10% 100%,rgba(86,200,206,.06) 0%,transparent 55%),
+  #08090a;color:#e8e8ea;line-height:1.7;min-height:100vh;}
+.wrap{max-width:780px;margin:0 auto;padding:64px 28px 96px;}
+.head{display:flex;align-items:center;gap:16px;margin-bottom:14px;}
+.logo{width:56px;height:56px;border-radius:14px;box-shadow:0 0 30px rgba(80,200,210,.35);}
+.brand{font-size:28px;font-weight:900;letter-spacing:-.5px;}
+.brand em{font-style:normal;color:#56C8CE;}
+h1{font-size:34px;font-weight:900;letter-spacing:-1px;margin:28px 0 6px;}
+.updated{font-size:14px;color:#7a7a7a;font-weight:600;margin-bottom:36px;}
+.lead{font-size:18px;color:#b8b8bc;font-weight:500;margin-bottom:40px;padding:22px 24px;background:rgba(80,200,210,.06);border:1px solid rgba(80,200,210,.18);border-radius:16px;}
+h2{font-size:21px;font-weight:800;margin:38px 0 12px;color:#fff;}
+p{margin-bottom:14px;color:#c4c4c8;font-weight:500;}
+ul{margin:0 0 16px 22px;}
+li{margin-bottom:9px;color:#c4c4c8;font-weight:500;}
+b{color:#fff;font-weight:800;}
+.teal{color:#56C8CE;font-weight:700;}
+.amber{color:#E8C254;font-weight:700;}
+a{color:#56C8CE;font-weight:700;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.foot{margin-top:52px;padding-top:26px;border-top:1px solid rgba(255,255,255,.08);font-size:14px;color:#6a6a6a;font-weight:600;}
+.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(52,199,89,.1);border:1px solid rgba(52,199,89,.3);border-radius:30px;padding:8px 18px;margin-bottom:30px;}
+.pill span{font-size:14px;color:#34C759;font-weight:800;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head">
+    <img class="logo" src="logo.png" alt="Focus Trader">
+    <div class="brand">Focus <em>Trader</em></div>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: May 30, 2026</div>
+
+  <div class="pill"><span>● Zero data collection — everything runs locally</span></div>
+
+  <div class="lead">
+    Focus Trader is built privacy-first. The extension does <b>not</b> collect, store, sell, or transmit any of your personal data to us or to any third party. All processing happens locally inside your own browser.
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Focus Trader is a Chrome browser extension that helps prop futures traders maintain discipline on supported trading platforms (TopstepX, Tradovate, and Topstep). This policy explains how the extension handles data.</p>
+
+  <h2>2. What data the extension processes</h2>
+  <p>To enforce the discipline rules you set, the extension reads certain information <b>directly on the trading page you are viewing</b>, such as your current profit/loss and number of trades. This information is:</p>
+  <ul>
+    <li><span class="teal">Processed entirely on your device</span>, in real time, only to check it against the rules you configured.</li>
+    <li><b>Never</b> sent to the developer.</li>
+    <li><b>Never</b> stored on any external server.</li>
+    <li><b>Never</b> shared with or sold to any third party.</li>
+  </ul>
+
+  <h2>3. Settings you save</h2>
+  <p>Your settings — daily loss limit, maximum trades, lockout duration, trading-window hours, pre-trade checklist items, and language/theme preferences — are saved using Chrome's local storage <span class="teal">on your own device only</span>. They are never uploaded anywhere.</p>
+
+  <h2>4. Optional Telegram alerts</h2>
+  <p>If — and only if — you choose to enable Telegram alerts, you enter your <b>own</b> Telegram bot token and chat ID. The extension then sends short rule-trigger messages (for example, "Daily loss limit reached") directly from your browser to <b>your own</b> Telegram bot. These credentials are stored locally and are used solely to deliver alerts to you. The developer never receives this data.</p>
+
+  <h2>5. Why the extension requests permissions</h2>
+  <ul>
+    <li><b>activeTab / tabs</b> — to detect when you are on a supported trading platform and apply the lockout to the correct tab.</li>
+    <li><b>scripting</b> — to display the discipline overlay and read on-page P&amp;L locally.</li>
+    <li><b>storage</b> — to save your settings locally on your device.</li>
+    <li><b>alarms</b> — to run the lockout cooldown timer and trading-window hours.</li>
+    <li><b>notifications</b> — to alert you when a rule is triggered.</li>
+    <li><b>Host access (topstepx.com, tradovate.com, topstep.com)</b> — so the extension runs only on these trading platforms and nowhere else.</li>
+  </ul>
+
+  <h2>6. No remote code</h2>
+  <p>The extension contains all of its code within its package. It does not download or execute any remote code.</p>
+
+  <h2>7. No tracking, no analytics</h2>
+  <p>Focus Trader includes <span class="amber">no analytics, no tracking pixels, no advertising, and no third-party SDKs</span>. We do not know who you are, and we do not want to.</p>
+
+  <h2>8. Children's privacy</h2>
+  <p>The extension is intended for adult traders and is not directed at children under 13.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new "Last updated" date.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions about privacy? Contact us at: <a href="mailto:focustrader.support@gmail.com">focustrader.support@gmail.com</a></p>
+
+  <div class="foot">© 2026 Focus Trader. This extension stores all data locally on your device and collects nothing.</div>
+</div>
+</body>
+</html>
